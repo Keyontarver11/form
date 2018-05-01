@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="title">Keyon Tarver</div>
+        <div class="links">
+            <span>
+                <a href="#">Home</a>
+            </span>
+            <span>
+                <a href="jobs.html" </a>My Jobs</span>
+            <span>
+                <a href="about.html">About Me</a>
+            </span>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="jobs.html">My Jobs</a>
+            </li>
+            <li>
+                <a href="about.html">About Me</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <form method="POST" form action="http://fvi-grad.com:4004/email">
+            <!-- <label for="dest_email">Send To?</label> -->
+            <input type="text" name="dest_email" placeholder="Send To">
+            <input type="text" name="full_name" placeholder="Full Name Please">
+            <input type="text" name="Phone" placeholder="Phone">
+            <input type="text" name="Date" placeholder="Date">
+            <input type="text" name="Time" placeholder="Time">
+            <input type="text" name="Email" placeholder="myemail@gmail.com">
+            <input type="text" name="Subject" placeholder="Subject">
+            <textarea name="Messages" id="Message" cols="30" rows="10" placeholder="Enter Text Here"></textarea>
+            <input type="Submit" value="Submit">
+        </form>
+    </div>
+    <footer>Keyon Tarver United States Army Veteran Infantry </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
